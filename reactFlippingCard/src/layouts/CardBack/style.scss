@@ -1,0 +1,47 @@
+.card-back {
+  top: 0;
+  overflow: hidden;
+  width: 100%;
+  height: 100%;
+  color: #212121;
+  background-color: #fff;
+  box-shadow: 0 10px 35px rgba(50, 50, 93, 0.1), 0 2px 15px rgba(0, 0, 0, 0.07);
+  //   padding: 32px;
+  text-align: center;
+  transform: rotateY(180deg);
+}
+
+.fluid-column {
+  display: flex;
+  padding: 0 1rem 1rem 1rem;
+  flex-direction: column;
+  h1 {
+    margin-top: 1rem;
+  }
+  .col-xs-6 {
+    margin-top: 1rem;
+    padding-right: 1rem;
+  }
+  button {
+    margin-top: 1rem;
+  }
+}
+
+.row {
+  padding-right: 0.5rem;
+  flex: 1;
+  display: flex;
+}
+
+.col-xs-6 {
+  flex: 1;
+}
+
+.card-form {
+  margin-top: 32px;
+}
+
+.card-form .row .card-form .row + input,
+.card-form .row + textarea {
+  margin-top: 16px;
+}

@@ -1,0 +1,15 @@
+.btn-primary {
+  padding: 8px 16px;
+  font-size: 16px;
+  background-color: #0c81f6;
+  border: none;
+  box-shadow: 0 10px 35px rgba(50,50,93,.1),0 2px 15px rgba(0,0,0,.07);
+  transition: background-color .25s ease-in, box-shadow .25s ease-in;
+  
+  &:focus,
+  &:hover {
+    background-color: lighten(#0c81f6, 15%);
+    box-shadow: 0 18px 35px rgba(50,50,93,.1),0 8px 15px rgba(0,0,0,.07);
+  }
+}
+

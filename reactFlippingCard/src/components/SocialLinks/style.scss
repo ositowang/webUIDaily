@@ -1,0 +1,25 @@
+.social-links {
+  padding: 0;
+  margin-top: 32px;
+  display: flex;
+  justify-content: center;
+  list-style-type: none;
+
+  li:nth-of-type(n + 2) {
+    margin-left: 24px;
+  }
+
+  a {
+    color: #212121;
+    transition: opacity 0.25s ease-in;
+
+    &:focus,
+    &:hover {
+      opacity: 0.5;
+    }
+  }
+
+  i {
+    font-size: 2rem;
+  }
+}

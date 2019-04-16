@@ -1,0 +1,45 @@
+.card-front {
+  position: absolute;
+  top: 0;
+  overflow: hidden;
+  width: 100%;
+  height: 100%;
+  color: #212121;
+  background-color: #fff;
+  backface-visibility: hidden;
+  box-shadow: 0 10px 35px rgba(50, 50, 93, 0.1), 0 2px 15px rgba(0, 0, 0, 0.07);
+}
+
+.front-content {
+  padding: 2rem;
+}
+
+.fluid {
+  display: flex;
+}
+
+.col-xs-6 {
+  flex: 1 100%;
+}
+
+.front-img {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+h1,
+h2 {
+  margin-top: 0;
+}
+
+h1 {
+  margin-bottom: 16px;
+  font-size: 24px;
+  font-weight: 700;
+}
+
+h2 {
+  margin-bottom: 12px;
+  font-size: 18px;
+  font-weight: 400;
+}
