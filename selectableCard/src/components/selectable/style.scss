@@ -1,0 +1,68 @@
+@import '../../global/global.scss';
+
+.card .selectable {
+  position: relative;
+  transition: $transition;
+  padding: 1rem;
+  border: 4px solid transparent;
+  width: 300px;
+  height: 366px;
+  .tags-container {
+    display: flex;
+    padding: 0.6rem 0;
+  }
+
+  .content {
+    padding: 0.6rem 0;
+    font-size: 1.4rem;
+  }
+  .title {
+    font-weight: 500;
+    font-size: 2rem;
+    padding: 0.6rem 0;
+  }
+  .badge {
+    display: block;
+    margin-right: 0.4rem;
+    padding: 0.2rem 0.4rem;
+  }
+  .check {
+    transition: $transition;
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 10;
+    width: $check-size;
+    height: $check-size;
+    &:before {
+      transition: $transition;
+      content: '';
+      border: $check-size solid;
+      border-color: transparent;
+      position: absolute;
+      top: 0;
+      right: 0;
+      z-index: -1;
+    }
+    .checkmark {
+      display: block;
+      font: $check-size sans-serif;
+      line-height: $check-size;
+      text-align: center;
+      color: transparent;
+    }
+  }
+
+  &.selected {
+    border-color: $selected-color;
+    .check {
+      &:before {
+        border-color: $selected-color $selected-color rgba(0, 0, 255, 0)
+          rgba(255, 0, 0, 0);
+      }
+      .checkmark {
+        color: #fff;
+      }
+    }
+  }
+}

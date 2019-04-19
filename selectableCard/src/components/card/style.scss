@@ -1,0 +1,12 @@
+@import '../../global/global.scss';
+
+.card {
+  transition: $transition;
+  box-shadow: $card-shadow;
+  background: #fff;
+  margin: 20px 10px;
+  cursor: pointer;
+  &:hover {
+    box-shadow: $card-shadow-hover;
+  }
+}

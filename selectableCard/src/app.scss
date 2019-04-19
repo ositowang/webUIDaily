@@ -1,0 +1,12 @@
+@import './global/reset.scss';
+@import url('https://fonts.googleapis.com/css?family=Patrick+Hand');
+
+.app {
+  font-family: 'Patrick Hand', cursive;
+  background: #fdfffc;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100%;
+}
