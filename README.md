@@ -30,3 +30,7 @@ A Neon-styled toggle button hacked with checkbox and pseudo elements. You could 
 [Neon Button](https://codesandbox.io/s/j2k317j1q3)
 
 - [ ] Consider change it into a more react way of animation
+
+## Carousel with React Hooks
+
+A simple carousel with react hooks `useEffect`. Hooks make reusable far easier. [React Hooks Carousel](https://codesandbox.io/s/moz7nj31mp).
