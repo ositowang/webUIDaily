@@ -34,3 +34,7 @@ A Neon-styled toggle button hacked with checkbox and pseudo elements. You could 
 ## Carousel with React Hooks
 
 A simple carousel with react hooks `useEffect`. Hooks make reusable far easier. [React Hooks Carousel](https://codesandbox.io/s/moz7nj31mp).
+
+## Single File drop with React Hooks
+
+A simple single file drop component with React hooks with detailed explanation. [React Hooks FileDrop](https://codesandbox.io/s/614827mmkz).
